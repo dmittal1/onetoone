@@ -26,3 +26,8 @@ Route::get('/insert', function(){
 
   $user->address()->save($address);
 });
+
+Route::get('/update',function(){
+
+
+});
